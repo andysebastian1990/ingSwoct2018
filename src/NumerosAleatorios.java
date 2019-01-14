@@ -55,14 +55,17 @@ public class NumerosAleatorios extends javax.swing.JFrame {
             }
         });
 
+        txtrandon.setBackground(new java.awt.Color(204, 255, 204));
         txtrandon.setColumns(20);
         txtrandon.setRows(5);
         jScrollPane1.setViewportView(txtrandon);
 
+        txtas.setBackground(new java.awt.Color(204, 255, 204));
         txtas.setColumns(20);
         txtas.setRows(5);
         jScrollPane2.setViewportView(txtas);
 
+        txtdes.setBackground(new java.awt.Color(204, 255, 204));
         txtdes.setColumns(20);
         txtdes.setRows(5);
         txtdes.setText("\n");
@@ -134,7 +137,7 @@ public class NumerosAleatorios extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         for (int i=0;i<arreglo.length;i++){
-        rango =(int) (alet.nextDouble()*100);
+        rango =(int) (alet.nextDouble()*50);
       
         arreglo[i]=rango;
         

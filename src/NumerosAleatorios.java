@@ -6,7 +6,7 @@ import java.util.Random;
  */
 public class NumerosAleatorios extends javax.swing.JFrame {
     Random alet=new Random();  
-    int k=0,cantidad=10,rango;
+    int k=0,cantidad=15,rango;
     int numeracion;
         int arreglo []=new int [cantidad];
 
